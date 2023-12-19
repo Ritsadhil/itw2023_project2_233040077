@@ -141,6 +141,7 @@ nav ul li a:hover {
   right: 0;
   text-align: center;
   margin-top: -50px;
+  z-index: 9999;
 }
 
 .navigasi a {
@@ -218,6 +219,7 @@ nav ul li a:hover {
 @media screen and (max-width: 800px) {
   .container {
     width: 90%;
+    z-index: -99;
   }
   .menu-toggle {
     display: flex;
