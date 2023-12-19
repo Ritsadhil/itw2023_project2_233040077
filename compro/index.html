@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto+Condensed:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav>
+      <div class="logo">
+        <h4>leriiioli_art</h4>
+      </div>
+
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <!-- end nav -->
+    <!-- carousel -->
+    <div class="container">
+      <div class="slides">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <span id="slide-4"></span>
+        <span id="slide-5"></span>
+        <div class="images">
+          <img src="img/kk.jpg" alt="slide-1" />
+          <img src="img/f.jpg" alt="slide-2" />
+          <img src="img/kj.jpg" alt="slide-3" />
+          <img src="img/y.jpg" alt="slide-4" />
+          <img src="img/cm.jpg" alt="slide-5" />
+        </div>
+      </div>
+      <!-- nav carousel -->
+      <div class="navigasi">
+        <a href="#slide-1">1</a>
+        <a href="#slide-2">2</a>
+        <a href="#slide-3">3</a>
+        <a href="#slide-4">4</a>
+        <a href="#slide-5">5</a>
+      </div>
+      <!-- end nav carousel -->
+    </div>
+    <!-- end carousel -->
+    <section class="about">
+      <h1>About</h1>
+      <p>
+        <b>
+          Website ini adalah website untuk mengkomisi saya untuk menggambarkan apapun yang kamu mau.
+          Mau seaneh apapun gambar yang kamu minta akan ku gambarkan sepenuh hati</b
+        >
+      </p>
+    </section>
+    <div class="serv">
+      <h1>services</h1>
+    </div>
+    <section class="services">
+      <div class="service">
+        <div class="icon">🖊️</div>
+        <h3>Sketsa</h3>
+        <p>Butuh Sketsa bisa</p>
+      </div>
+      <div class="service">
+        <div class="icon">🖋️</div>
+        <h3>Coloring</h3>
+        <p>Ngewarnain? bisa</p>
+      </div>
+      <div class="service">
+        <div class="icon">🖼️</div>
+        <h3>Painting</h3>
+        <p>Pengen gambar yang langsung jadi? bisa juga</p>
+      </div>
+    </section>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
