@@ -20,11 +20,11 @@
       </div>
 
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Product</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Gallery</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#services">Layanan</a></li>
+        <li><a href="#Keunggulan">Keunggulan</a></li>
+        <li><a href="#Lainnya">Lainnya</a></li>
+        <li><a href="#kontak">Kontak</a></li>
       </ul>
 
       <div class="menu-toggle">
@@ -36,33 +36,35 @@
     </nav>
     <!-- end nav -->
     <!-- carousel -->
-    <div class="container">
-      <div class="slides">
-        <span id="slide-1"></span>
-        <span id="slide-2"></span>
-        <span id="slide-3"></span>
-        <span id="slide-4"></span>
-        <span id="slide-5"></span>
-        <div class="images">
-          <img src="img/kk.jpg" alt="slide-1" />
-          <img src="img/f.jpg" alt="slide-2" />
-          <img src="img/kj.jpg" alt="slide-3" />
-          <img src="img/y.jpg" alt="slide-4" />
-          <img src="img/cm.jpg" alt="slide-5" />
+    <section id="Home">
+      <div class="container">
+        <div class="slides">
+          <span id="slide-1"></span>
+          <span id="slide-2"></span>
+          <span id="slide-3"></span>
+          <span id="slide-4"></span>
+          <span id="slide-5"></span>
+          <div class="images">
+            <img src="img/kk.jpg" alt="slide-1" />
+            <img src="img/f.jpg" alt="slide-2" />
+            <img src="img/kj.jpg" alt="slide-3" />
+            <img src="img/y.jpg" alt="slide-4" />
+            <img src="img/cm.jpg" alt="slide-5" />
+          </div>
         </div>
+        <!-- nav carousel -->
+        <div class="navigasi">
+          <a href="#slide-1">1</a>
+          <a href="#slide-2">2</a>
+          <a href="#slide-3">3</a>
+          <a href="#slide-4">4</a>
+          <a href="#slide-5">5</a>
+        </div>
+        <!-- end nav carousel -->
       </div>
-      <!-- nav carousel -->
-      <div class="navigasi">
-        <a href="#slide-1">1</a>
-        <a href="#slide-2">2</a>
-        <a href="#slide-3">3</a>
-        <a href="#slide-4">4</a>
-        <a href="#slide-5">5</a>
-      </div>
-      <!-- end nav carousel -->
-    </div>
+    </section>
     <!-- end carousel -->
-    <section class="about">
+    <!-- <section id="about">
       <h1>About</h1>
       <p>
         <b>
@@ -70,28 +72,90 @@
           Mau seaneh apapun gambar yang kamu minta akan ku gambarkan sepenuh hati</b
         >
       </p>
-    </section>
+    </section> -->
+    <!-- services -->
     <div class="serv">
-      <h1>services</h1>
+      <h1>Layanan</h1>
     </div>
-    <section class="services">
+    <section id="services">
       <div class="service">
         <div class="icon">🖊️</div>
         <h3>Sketsa</h3>
-        <p>Butuh Sketsa bisa</p>
+        <p>
+          Sketsa adalah karya gambar yang biasanya tidak dimaksudkan sebagai hasil karya akhir.
+          Sketsa biasanya hanya berupa bentukan awal dari gambar yang akan digambar dan tak memiliki
+          warna
+        </p>
       </div>
       <div class="service">
         <div class="icon">🖋️</div>
         <h3>Coloring</h3>
-        <p>Ngewarnain? bisa</p>
+        <p>Coloring adalah proses mewarnai gambar</p>
       </div>
       <div class="service">
         <div class="icon">🖼️</div>
         <h3>Painting</h3>
-        <p>Pengen gambar yang langsung jadi? bisa juga</p>
+        <p>
+          Painting adalah gambar yang sudah jadi yang dibuat dari sketsa dan terus melalui proses
+          mewarnai
+        </p>
       </div>
     </section>
-
+    <!-- end services -->
+    <!-- Keunggulan -->
+    <section id="Keunggulan">
+      <h1>Kenapa pesan komisi di tempat saya?</h1>
+      <div class="wrapper">
+        <ul class="keunggulan">
+          <li><b>Harga terjangkau ✔️</li></b>
+          <li><b>Proses pengerjaan yang terbilang cepat ✔️</li></b>
+          <li><b>Hasil yang memuaskan ✔️</li></b>
+        </ul>
+      </div>
+    </section>
+    <!-- akhir keunggulan -->
+    <!-- akhir lainnya -->
+    <section id="Lainnya">
+      <h1>Kamu bisa melihat gambar lainnya yang pernah saya buat dibawah</h1>
+      <div align="center">
+        <iframe src="https://www.instagram.com/leriiioli_art/embed" width="350" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+  </div>
+  </section>
+  <!-- akhir lainnya -->
+  <!-- kontak -->
+  <section id="kontak">
+    <div class="box-kontak">
+      <h1>Kontak saya</h1>
+      <form action="">
+      <div class="isi-kontak">
+        <label for="">Nama</label>
+        <input type="text">
+      </div>
+      <div class="isi-kontak">
+        <label for="">Email</label>
+        <input type="email">
+      </div>
+      <div class="isi-kontak">
+        <label for="">pesan</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div class="tombol">
+        <button type="submit" class="submit">Kirim</button>
+      </div>
+    </form>
+    </div>
+  </section>
+  <!-- end kontak -->
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+    <p>
+      Created by
+      <a href="https://www.instagram.com/harits_f_k/">Harits Fadhil Kurnia</a>
+    </div>
+    </p>
+  </footer>
+  <!-- end footer -->
     <script>
       const menuToggle = document.querySelector(".menu-toggle input");
       const nav = document.querySelector("nav ul");
