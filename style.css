@@ -210,10 +210,15 @@ nav ul li a:hover {
 }
 
 /* keunggulan */
+#Keunggulan {
+  margin-top: 50px;
+}
+
 #Keunggulan h1 {
   text-align: center;
   margin-top: 100px;
   font-size: 2em;
+  padding: 1.5em;
 }
 
 .wrapper {
@@ -241,6 +246,14 @@ nav ul li a:hover {
 } */
 
 /* lainnya */
+#Lainnya {
+  margin-top: 100px;
+}
+
+.b-lainnya {
+  margin-top: 100px;
+}
+
 .bungkus {
   margin: auto;
   display: flex;
@@ -273,7 +286,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  border-radius: 5%;
+  /* border-radius: 10%; */
 }
 
 .kontak h1 {
